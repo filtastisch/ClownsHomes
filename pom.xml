@@ -59,6 +59,10 @@
             <id>sonatype</id>
             <url>https://oss.sonatype.org/content/groups/public/</url>
         </repository>
+        <repository>
+            <id>tsc</id>
+            <url>https://repo.thesourcecoders.de/repository/capi/</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -66,6 +70,18 @@
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
             <version>1.21.4-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>de.tsc.api</groupId>
+            <artifactId>capi</artifactId>
+            <version>6.4.1</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>dev.jorel</groupId>
+            <artifactId>commandapi-bukkit-core</artifactId>
+            <version>9.7.0</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>

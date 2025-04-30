@@ -2,3 +2,4 @@ name: ClownsHomes
 version: '1.0-SNAPSHOT'
 main: eu.filtastisch.clownsHomes.ClownsHomes
 api-version: '1.21'
+depend: [CommandAPI, Capi]
