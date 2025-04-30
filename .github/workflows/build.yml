@@ -27,7 +27,7 @@ jobs:
           <settings>
             <servers>
               <server>
-                <id>private-repo</id>
+                <id>tsc</id>
                 <username>${{ secrets.REPO_USER }}</username>
                 <password>${{ secrets.REPO_PASSWORD }}</password>
               </server>
